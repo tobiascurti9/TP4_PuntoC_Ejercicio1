@@ -20,6 +20,8 @@
                 End If
             End If
         Loop Until NumeroEntero = -999
-        lstSalida.Items.Add("Suma de numeros ingresados")
+        lstSalida.Items.Add("Suma de numeros ingresados" & Num)
+        lstSalida.Items.Add("Numero Mayor:" & Mayor)
+        lstSalida.Items.Add("Numero menor:" & Menor)
     End Sub
 End Class
